@@ -1,10 +1,18 @@
 # 📊 Desafio Técnico - Visualizador de Relatórios de Vendas
 
-Aplicação Full Stack desenvolvida como parte do desafio técnico para estágio. O sistema consiste em um dashboard para visualização de registros de vendas, permitindo filtragem avançada e exportação de relatórios.
+Aplicação Full Stack desenvolvida como parte do desafio técnico para estágio. O sistema consiste em um dashboard para visualização de registros de vendas, permitindo filtragem avançada e exportação de relatórios em PDF.
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-> O sistema exibe uma tabela responsiva com dados vindos do backend, estilizada com Tailwind CSS.
+### 🖥️ Dashboard Web
+> Interface responsiva com listagem de dados e filtros dinâmicos.
+![Dashboard Web](./prints/web.png)
+
+### 📄 Relatório PDF Gerado
+> Exportação profissional com design customizado, cabeçalho e tabulação automática.
+![Relatório PDF](./prints/pdf.png)
+
+---
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -19,6 +27,7 @@ Aplicação Full Stack desenvolvida como parte do desafio técnico para estágio
 - **TypeScript**: Tipagem estática para maior segurança no código.
 - **Tailwind CSS**: Estilização utilitária e responsiva.
 - **Axios**: Consumo da API.
+- **jsPDF & AutoTable**: Geração de documentos PDF no front-end.
 
 ---
 
@@ -45,12 +54,3 @@ node seed.js
 
 # Inicie o servidor
 node index.js
-
-# Abra um novo terminal e entre na pasta do cliente
-cd client
-
-# Instale as dependências
-npm install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
