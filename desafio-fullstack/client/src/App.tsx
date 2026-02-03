@@ -145,6 +145,9 @@ const gerarPDF = () => {
   }
 
   //5. ABRIR PDF
+  doc.setProperties({
+    title: "Relatório de Vendas", 
+  });
   const pdfUrl = doc.output("bloburl");
   window.open(pdfUrl, "_blank");
 };
@@ -162,7 +165,7 @@ const gerarPDF = () => {
             onClick={gerarPDF} 
             className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded shadow transition"
           >
-            Baixar PDF
+            Exportar PDF
           </button>
         </div>
 
