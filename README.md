@@ -6,11 +6,11 @@ Aplicação Full Stack desenvolvida como parte do desafio técnico para estágio
 
 ### 🖥️ Dashboard Web
 > Interface responsiva com listagem de dados e filtros dinâmicos.
-![Dashboard Web](./prints/web.png)
+![Dashboard Web](./web.png)
 
 ### 📄 Relatório PDF Gerado
 > Exportação profissional com design customizado, cabeçalho e tabulação automática.
-![Relatório PDF](./prints/pdf.png)
+![Relatório PDF](./pdf.png)
 
 ---
 
@@ -54,6 +54,7 @@ node seed.js
 
 # Inicie o servidor
 node index.js
+```
 
 ### 2. Configurando o Frontend (Cliente)
 
@@ -70,3 +71,5 @@ npm install
 
 # Inicie o servidor de desenvolvimento
 npm run dev
+
+```
