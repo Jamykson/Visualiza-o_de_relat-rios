@@ -54,3 +54,19 @@ node seed.js
 
 # Inicie o servidor
 node index.js
+
+### 2. Configurando o Frontend (Cliente)
+
+O frontend foi desenvolvido com Vite e roda na porta `5173`.
+
+> **Importante:** Abra um **novo terminal** para rodar o frontend (mantenha o backend rodando no outro).
+
+```bash
+# Entre na pasta do cliente
+cd client
+
+# Instale as dependências (React, Tailwind, Axios, jsPDF)
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
