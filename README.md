@@ -6,11 +6,11 @@ Aplicação Full Stack desenvolvida como parte do desafio técnico para estágio
 
 ### 🖥️ Dashboard Web
 > Interface responsiva com listagem de dados e filtros dinâmicos.
-![Dashboard Web](./web.png)
+![Dashboard Web](./prints/web.png.png)
 
 ### 📄 Relatório PDF Gerado
 > Exportação profissional com design customizado, cabeçalho e tabulação automática.
-![Relatório PDF](./pdf.png)
+![Relatório PDF](./prints/pdf.png.png)
 
 ---
 
