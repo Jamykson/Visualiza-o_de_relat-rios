@@ -12,7 +12,7 @@ interface Venda {
 
 function App() {
   
-  const API_URL = "https://cautious-eureka-57wqr7x7wrv2vw94-3001.app.github.dev"; 
+  const API_URL = "https://sturdy-acorn-p5xrw5p5x65h6x4p-3001.app.github.dev"; 
 
   const [vendas, setVendas] = useState<Venda[]>([]);
   const [filtro, setFiltro] = useState("");
