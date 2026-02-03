@@ -10,7 +10,7 @@ Aplicação Full Stack desenvolvida como parte do desafio técnico para estágio
 
 ### 📄 Relatório PDF Gerado
 > Exportação profissional com design customizado, cabeçalho e tabulação automática.
-![Relatório PDF](./prints/pdf.pnng)
+![Relatório PDF](./prints/pdf.png)
 
 ---
 
