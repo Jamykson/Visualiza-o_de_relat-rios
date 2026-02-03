@@ -1,9 +1,8 @@
-// server/seed.js
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
 async function main() {
-  // Limpa o banco antes de popular (opcional, mas bom pra testes)
+  // Limpa o banco antes de popular
   await prisma.venda.deleteMany({});
 
   const vendas = [
